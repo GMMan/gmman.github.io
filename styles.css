@@ -20,9 +20,10 @@ body {
 
 .container {
     width: 95%;
-    max-width: 1700px;
+    min-width: 160px;
+    max-width: 1800px;
     margin: 2.5% auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.6);
 }
@@ -59,6 +60,7 @@ body {
     justify-content: center;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: 5px;
 }
 
 .icons {
@@ -68,6 +70,10 @@ body {
     display: flex;
     -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .separator {
